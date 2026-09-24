@@ -1,16 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { MapPin, Phone, Clock, Navigation, ExternalLink, MessageCircle } from 'lucide-react';
 
 export const LocationMapSection: React.FC = () => {
-  const [mapProvider, setMapProvider] = useState<'google' | 'osm'>('google');
-  const [mapLoaded, setMapLoaded] = useState(false);
-
-  // Direct Google Maps navigation URL
   const googleMapsDirectionsUrl = 'https://www.google.com/maps/dir/?api=1&destination=Adjacent+Prison+Quarters+Obuasi+Ghana';
-  
-  // Clean, high-compatibility embed URLs
-  const googleEmbedUrl = 'https://maps.google.com/maps?q=Adjacent+Prison+Quarters,+Obuasi,+Ghana&t=&z=15&ie=UTF8&iwloc=&output=embed';
-  const osmEmbedUrl = 'https://www.openstreetmap.org/export/embed.html?bbox=-1.7000%2C6.1800%2C-1.6400%2C6.2300&layer=mapnik&marker=6.2025%2C-1.6705';
 
   return (
     <section id="location" className="py-16 md:py-24 bg-white/70 backdrop-blur-xs relative">
@@ -132,44 +124,20 @@ export const LocationMapSection: React.FC = () => {
                   Live Map: Adjacent Prison Quarters, Obuasi
                 </span>
               </div>
-
-              {/* Provider switcher */}
-              <div className="flex items-center gap-1 bg-stone-200/70 p-1 rounded-lg text-xs font-semibold">
-                <button
-                  onClick={() => setMapProvider('google')}
-                  className={`px-2.5 py-1 rounded-md transition-colors cursor-pointer ${
-                    mapProvider === 'google'
-                      ? 'bg-white text-stone-900 shadow-2xs'
-                      : 'text-stone-600 hover:text-stone-900'
-                  }`}
-                >
-                  Google Maps
-                </button>
-                <button
-                  onClick={() => setMapProvider('osm')}
-                  className={`px-2.5 py-1 rounded-md transition-colors cursor-pointer ${
-                    mapProvider === 'osm'
-                      ? 'bg-white text-stone-900 shadow-2xs'
-                      : 'text-stone-600 hover:text-stone-900'
-                  }`}
-                >
-                  OSM Satellite/Tile
-                </button>
-              </div>
             </div>
 
             {/* Embed Container */}
             <div className="relative grow w-full min-h-[380px] bg-stone-100">
               <iframe
-                key={mapProvider}
-                title="Kim Prince Juice & Snack Bar Location - Obuasi Adjacent Prison Quarters"
-                src={mapProvider === 'google' ? googleEmbedUrl : osmEmbedUrl}
-                width="100%"
-                height="100%"
-                className="w-full h-full min-h-[380px] border-0"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d601.079871039221!2d-1.6694131931119707!3d6.20341711272636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdc6f8f7f151c0d%3A0x436bc5cf5057fef8!2s683J%2B8F6%2C%20Fomena%20Rd%2C%20Obuasi!5e0!3m2!1sen!2sgh!4v1790291024859!5m2!1sen!2sgh"
+                width="600"
+                height="450"
+                style={{ border: 0 }}
+                allowFullScreen={true}
                 loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                onLoad={() => setMapLoaded(true)}
+                referrerPolicy="strict-origin-when-cross-origin"
+                title="Kim Prince Juice & Snack Bar Location"
+                className="w-full h-full min-h-[380px] border-0"
               />
 
               {/* Floating Landmark Overlay Tag with MapPin SVG */}

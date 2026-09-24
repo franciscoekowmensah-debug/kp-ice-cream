@@ -93,7 +93,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
               {/* Main Image Frame */}
               <div className="overflow-hidden rounded-3xl bg-stone-100 border border-stone-200/90 shadow-2xl transition-transform duration-500 hover:scale-[1.01]">
                 <img
-                  src="/gallery/gallery_fresh_juices_smoothies_1790282003450.jpg"
+                  src="/gallery/melon-cocktail.jpg"
                   alt="Kim Prince Juice & Snack Bar Fresh Beverages"
                   className="w-full h-80 sm:h-96 object-cover"
                   loading="eager"

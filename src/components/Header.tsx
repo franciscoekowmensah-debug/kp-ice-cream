@@ -1,5 +1,5 @@
 import React from 'react';
-import { ShoppingBag, Phone, Crown } from 'lucide-react';
+import { ShoppingBag, Phone, IceCream } from 'lucide-react';
 
 interface HeaderProps {
   cartCount: number;
@@ -22,7 +22,7 @@ export const Header: React.FC<HeaderProps> = ({
           className="flex items-center gap-2.5 text-stone-900 group"
         >
           <span className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-emerald-600 text-white flex items-center justify-center font-bold text-lg shadow-xs group-hover:bg-emerald-700 transition-colors">
-            <Crown className="w-5 h-5 text-amber-300 fill-amber-300" />
+            <IceCream className="w-5 h-5 text-amber-300" />
           </span>
           <div className="flex flex-col">
             <span className="font-display font-extrabold text-base sm:text-xl tracking-tight text-emerald-950 leading-tight">

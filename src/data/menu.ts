@@ -8,7 +8,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'juices',
     price: 25,
     description: 'Cold-pressed sweet Obuasi pineapples infused with fresh zesty ginger. 100% natural, no added sugar.',
-    image: '/galleryAI/gallery_fresh_juices_smoothies_1790282003450.jpg',
+    image: '/gallery/juice-cocktail1.jpg',
     badge: '100% FRESH',
     tags: ['Cold-Pressed', 'Immunity Boost', 'No Added Sugar']
   },
@@ -18,7 +18,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'juices',
     price: 25,
     description: 'Sun-kissed sweet oranges freshly squeezed and layered with cold diced watermelon juice.',
-    image: '/galleryAI/gallery_fresh_juices_smoothies_1790282003450.jpg',
+    image: '/gallery/pine-cocktail.jpg',
     badge: 'CUSTOMER FAVORITE',
     tags: ['Chilled', 'Hydrating', 'Vitamin C']
   },
@@ -28,7 +28,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'juices',
     price: 30,
     description: 'Velvety local ripe mango juice blended with fragrant tropical passion fruit seeds and pulp.',
-    image: '/galleryAI/gallery_fresh_juices_smoothies_1790282003450.jpg',
+    image: '/gallery/melon-cocktail.jpg',
     badge: 'SEASONAL HIT',
     tags: ['Rich & Thick', 'Tropical', 'Sweet']
   },
@@ -38,7 +38,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'juices',
     price: 30,
     description: 'Crisp cucumber, green apple, fresh lime, garden mint, and young ginger juice.',
-    image: '/galleryAI/gallery_fresh_juices_smoothies_1790282003450.jpg',
+    image: '/gallery/citrus-cocktail.jpg',
     badge: 'CLEANSE',
     tags: ['Detox', 'Low Calorie', 'Refreshing']
   },
@@ -50,7 +50,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'smoothies',
     price: 35,
     description: 'Fresh baby greens, ripe banana, avocado, fresh apple juice, and wild honey blended velvety smooth.',
-    image: '/galleryAI/gallery_fresh_juices_smoothies_1790282003450.jpg',
+    image: '/gallery/juice-cocktail2.jpg',
     badge: 'HOUSE SPECIAL',
     tags: ['Energizing', 'Creamy', 'Natural Honey']
   },
@@ -60,7 +60,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'smoothies',
     price: 35,
     description: 'Whole sweet strawberries whipped with frozen banana and chilled probiotic yogurt.',
-    image: '/galleryAI/gallery_fresh_juices_smoothies_1790282003450.jpg',
+    image: '/gallery/melon-pine-juice-pie.jpg',
     badge: 'KIDS FAVORITE',
     tags: ['Fruity', 'Real Berries', 'Silky']
   },
@@ -70,7 +70,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'smoothies',
     price: 40,
     description: 'Crafted with our rich daily churned ice cream, fresh whole milk, chocolate drizzle, and whipped cream.',
-    image: '/galleryAI/gallery_icecream_sundae_special_1790282031479.jpg',
+    image: '/gallery/choc-milkshake1.jpg',
     badge: 'BESTSELLER',
     tags: ['Real Ice Cream', 'Super Thick', 'Chocolate or Vanilla']
   },
@@ -82,7 +82,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'sandwiches',
     price: 40,
     description: 'Golden toasted bread layered with seasoned pulled chicken, boiled farm egg, crisp lettuce, ripe tomatoes, and chef herb spread.',
-    image: '/galleryAI/gallery_club_sandwiches_1790282022461.jpg',
+    image: '/gallery/customer-with-cocktail.jpg',
     badge: 'TOP SELLER',
     tags: ['Triple-Decker', 'High Protein', 'Served Warm']
   },
@@ -92,7 +92,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'sandwiches',
     price: 35,
     description: 'Tender marinated chicken breast with crunchy garden slaw, melted cheddar, and Kim Prince signature garlic mayo.',
-    image: '/galleryAI/gallery_club_sandwiches_1790282022461.jpg',
+    image: '/gallery/citrus-cocktail.jpg',
     badge: 'FRESH GRILL',
     tags: ['Toasted', 'Savory', 'Hearty']
   },
@@ -102,7 +102,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'sandwiches',
     price: 35,
     description: 'Flaked light tuna, juicy golden sweetcorn, red onions, melted cheese on crusty artisanal toast.',
-    image: '/galleryAI/gallery_club_sandwiches_1790282022461.jpg',
+    image: '/gallery/melon-cocktail.jpg',
     tags: ['Comfort Food', 'Melted Cheese', 'Toasted']
   },
   {
@@ -111,7 +111,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'sandwiches',
     price: 30,
     description: 'Farm fresh sliced boiled eggs, crunchy cucumber, tomatoes, lettuce, and creamy mustard dressing.',
-    image: '/galleryAI/gallery_club_sandwiches_1790282022461.jpg',
+    image: '/gallery/pine-cocktail.jpg',
     tags: ['Vegetarian', 'Light & Fresh', 'Quick Bite']
   },
 
@@ -122,7 +122,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'pastries',
     price: 25,
     description: 'Golden, flaky handmade pastry crust stuffed with richly seasoned minced beef, tender potatoes, and garden herbs.',
-    image: '/galleryAI/gallery_golden_pastries_snacks_1790282012771.jpg',
+    image: '/gallery/melon-pine-juice-pie.jpg',
     badge: 'FRESHLY BAKED',
     tags: ['Oven Hot', '100% Beef', 'Flaky Pastry']
   },
@@ -132,7 +132,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'pastries',
     price: 20,
     description: 'Moist bakery-style muffin bursting with juicy blueberries and topped with crunchy golden sugar crust.',
-    image: '/galleryAI/gallery_golden_pastries_snacks_1790282012771.jpg',
+    image: '/gallery/customer-with-cocktail.jpg',
     badge: 'SWEET TREAT',
     tags: ['Bakery Fresh', 'Moist & Fluffy', 'Coffee Buddy']
   },
@@ -142,7 +142,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'pastries',
     price: 25,
     description: 'Crispy golden triangles packed with spiced minced meat, scallions, and chili flakes, served with tangy sweet chili dip.',
-    image: '/galleryAI/gallery_golden_pastries_snacks_1790282012771.jpg',
+    image: '/gallery/juice-cocktail2.jpg',
     badge: 'CRUNCHY',
     tags: ['Spiced', 'Golden Fried', 'Party Favorite']
   },
@@ -152,7 +152,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'pastries',
     price: 25,
     description: 'Ultra-crisp handmade rolls filled with tender shredded chicken, julienne carrots, and crunchy cabbage.',
-    image: '/galleryAI/gallery_golden_pastries_snacks_1790282012771.jpg',
+    image: '/gallery/ice-cream-sundae1.jpg',
     tags: ['Crispy', 'Savory', 'Finger Food']
   },
 
@@ -163,7 +163,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'icecream',
     price: 30,
     description: 'Generous scoops of creamy homemade ice cream, finished with rich chocolate/strawberry drizzle, rainbow sprinkles, and crisp wafer.',
-    image: '/galleryAI/gallery_icecream_sundae_special_1790282031479.jpg',
+    image: '/gallery/ice-cream-sundae1.jpg',
     badge: 'LEGENDARY',
     tags: ['Obuasi Classic', 'Wafers & Sauce', 'Served Cold']
   },
@@ -173,7 +173,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'icecream',
     price: 45,
     description: 'Our signature house dessert! Tall glass layered with ice cream scoops, tropical fruit cocktail, fruit syrup, and roasted crushed peanuts.',
-    image: '/galleryAI/gallery_icecream_sundae_special_1790282031479.jpg',
+    image: '/gallery/choc-vanil-milkshake.jpg',
     badge: 'SIGNATURE DESSERT',
     tags: ['Layered', 'Real Fruits', 'Showstopper']
   },
@@ -183,52 +183,171 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'icecream',
     price: 25,
     description: 'Two generous scoops of your choice (Creamy Vanilla, Strawberry Swirl, or Rich Chocolate) in a crisp waffle cone or bowl.',
-    image: '/galleryAI/gallery_icecream_sundae_special_1790282031479.jpg',
+    image: '/gallery/ice-cream-milkshake.jpg',
     tags: ['Hand Dipped', 'Waffle Cone', 'Classic']
   }
 ];
 
 export const GALLERY_MEDIA_ITEMS: GalleryMedia[] = [
   {
-    id: 'img-juices',
-    title: 'Fresh Cold Juices & Iced Smoothies',
-    type: 'image',
-    url: '/galleryAI/gallery_fresh_juices_smoothies_1790282003450.jpg',
-    description: 'Cold-pressed natural juices prepared to order with fresh pineapples, oranges, and greens.'
-  },
-  {
-    id: 'vid-juices-loop',
-    title: 'Fresh Juice Pour & Blending (Live Clip)',
+    id: 'gallery-choc-milkshake-vid',
+    title: 'Chocolate Milkshake Pour',
     type: 'video',
-    url: '/galleryAI/fresh_juice_blend_loop.mp4',
-    description: 'Watch how we freshly blend every single drink right on our bar counter.'
+    url: '/gallery/choc-milkshake-vid.mp4',
+    description: 'A creamy chocolate milkshake being served fresh from the bar.'
   },
   {
-    id: 'img-sandwiches',
-    title: 'Gourmet Toasted Club Sandwiches',
+    id: 'gallery-choc-milkshake-1',
+    title: 'Chocolate Milkshake',
     type: 'image',
-    url: '/galleryAI/gallery_club_sandwiches_1790282022461.jpg',
-    description: 'Crisp golden toasted sandwiches filled with grilled chicken, egg, and garden greens.'
+    url: '/gallery/choc-milkshake1.jpg',
+    description: 'Rich chocolate milkshake available fresh daily.'
   },
   {
-    id: 'img-pastries',
-    title: 'Golden Meat Pies & Fresh Baked Muffins',
+    id: 'gallery-choc-milkshake-2',
+    title: 'Chocolate Shake Close-Up',
     type: 'image',
-    url: '/galleryAI/gallery_golden_pastries_snacks_1790282012771.jpg',
-    description: 'Daily oven-baked snacks, crispy meat pies, and warm sweet muffins.'
+    url: '/gallery/choc-milkshake2.jpg',
+    description: 'Creamy texture and fresh toppings on our classic chocolate shake.'
   },
   {
-    id: 'vid-snacks-loop',
-    title: 'Hot Golden Pastries Fresh From Oven (Live Clip)',
+    id: 'gallery-choc-milkshake-3',
+    title: 'Chocolate Shake Favorite',
+    type: 'image',
+    url: '/gallery/choc-milkshake3.jpg',
+    description: 'A crowd favorite for milkshake lovers.'
+  },
+  {
+    id: 'gallery-choc-vanil-milkshake',
+    title: 'Chocolate & Vanilla Shake',
+    type: 'image',
+    url: '/gallery/choc-vanil-milkshake.jpg',
+    description: 'A delicious mix of chocolate and vanilla milkshake flavors.'
+  },
+  {
+    id: 'gallery-citrus-cocktail',
+    title: 'Citrus Cocktail',
+    type: 'image',
+    url: '/gallery/citrus-cocktail.jpg',
+    description: 'Bright citrus refreshment served chilled and full of flavor.'
+  },
+  {
+    id: 'gallery-customer-choc-milkshake-vid',
+    title: 'Customer Favorite Shake Moment',
     type: 'video',
-    url: '/galleryAI/crispy_snacks_loop.mp4',
-    description: 'Freshly baked daily pastries with savory fillings and golden flaky crusts.'
+    url: '/gallery/customer-with-choc-milkshake-vid.mp4',
+    description: 'A customer enjoying one of our signature chocolate shakes.'
   },
   {
-    id: 'img-sundae',
-    title: 'Kim Prince Classic Chilled Sundae',
+    id: 'gallery-customer-with-cocktail',
+    title: 'Customer with Cocktail',
     type: 'image',
-    url: '/galleryAI/gallery_icecream_sundae_special_1790282031479.jpg',
-    description: 'Churned ice cream scoops served ice-cold with sweet wafer and chocolate drizzle.'
+    url: '/gallery/customer-with-cocktail.jpg',
+    description: 'A happy customer enjoying a chilled house cocktail.'
+  },
+  {
+    id: 'gallery-flyer-1',
+    title: 'Kim Prince Flyer',
+    type: 'image',
+    url: '/gallery/Flyer1.jpg',
+    description: 'Menu highlights and offers from the Kim Prince lineup.'
+  },
+  {
+    id: 'gallery-flyer-2',
+    title: 'Seasonal Menu Flyer',
+    type: 'image',
+    url: '/gallery/Flyer2.jpg',
+    description: 'Fresh specials and favorites featured in our promotional flyer.'
+  },
+  {
+    id: 'gallery-ice-cream-milkshake',
+    title: 'Ice Cream Milkshake',
+    type: 'image',
+    url: '/gallery/ice-cream-milkshake.jpg',
+    description: 'Creamy homemade ice cream blended into a thick shake.'
+  },
+  {
+    id: 'gallery-ice-cream-sundae-1',
+    title: 'Classic Sundae',
+    type: 'image',
+    url: '/gallery/ice-cream-sundae1.jpg',
+    description: 'Our classic cold sundae served with rich toppings.'
+  },
+  {
+    id: 'gallery-ice-cream-sundae-2',
+    title: 'Sundae Showcase',
+    type: 'image',
+    url: '/gallery/ice-cream-sundae2.jpg',
+    description: 'Freshly served sundae with a creamy finish.'
+  },
+  {
+    id: 'gallery-ice-cream-sundae-3',
+    title: 'Ice Cream Delight',
+    type: 'image',
+    url: '/gallery/ice-cream-sundae3.jpg',
+    description: 'A cold indulgence with signature toppings and a smooth finish.'
+  },
+  {
+    id: 'gallery-ice-cream-sundae-4',
+    title: 'Sundae Special',
+    type: 'image',
+    url: '/gallery/ice-cream-sundae4.jpg',
+    description: 'An eye-catching sundae for those craving a sweet special.'
+  },
+  {
+    id: 'gallery-juice-cocktail-1',
+    title: 'Juice Cocktail 1',
+    type: 'image',
+    url: '/gallery/juice-cocktail1.jpg',
+    description: 'Fresh fruit cocktail served chilled with vibrant flavor.'
+  },
+  {
+    id: 'gallery-juice-cocktail-2',
+    title: 'Juice Cocktail 2',
+    type: 'image',
+    url: '/gallery/juice-cocktail2.jpg',
+    description: 'Another fresh blend made with natural fruit and ice.'
+  },
+  {
+    id: 'gallery-melon-cocktail',
+    title: 'Melon Cocktail',
+    type: 'image',
+    url: '/gallery/melon-cocktail.jpg',
+    description: 'Cool melon-inspired drink packed with refreshing taste.'
+  },
+  {
+    id: 'gallery-melon-pine-juice-pie',
+    title: 'Melon Pine Juice Pie',
+    type: 'image',
+    url: '/gallery/melon-pine-juice-pie.jpg',
+    description: 'A bright dessert-inspired combo of melon and pineapple juice flavors.'
+  },
+  {
+    id: 'gallery-pine-cocktail',
+    title: 'Pine Cocktail',
+    type: 'image',
+    url: '/gallery/pine-cocktail.jpg',
+    description: 'Pineapple cocktail with a crisp and juicy profile.'
+  },
+  {
+    id: 'gallery-vanil-milkshake-1',
+    title: 'Vanilla Milkshake 1',
+    type: 'image',
+    url: '/gallery/vanil-milkshake1.jpg',
+    description: 'Smooth and creamy vanilla milkshake made for a classic treat.'
+  },
+  {
+    id: 'gallery-vanil-milkshake-2',
+    title: 'Vanilla Milkshake 2',
+    type: 'image',
+    url: '/gallery/vanil-milkshake2.jpg',
+    description: 'Fresh vanilla shake prepared to order.'
+  },
+  {
+    id: 'gallery-vanil-milkshake-3',
+    title: 'Vanilla Milkshake 3',
+    type: 'image',
+    url: '/gallery/vanil-milkshake3.jpg',
+    description: 'A creamy vanilla finish to our milkshake menu.'
   }
 ];
