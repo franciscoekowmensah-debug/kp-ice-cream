@@ -171,7 +171,7 @@ export const MENU_ITEMS: MenuItem[] = [
     id: 'icecream-classic-sundae',
     name: 'Classic Ice Cream Sundae',
     category: 'icecream',
-    price: 60,
+    price: 30,
     description: 'Generous scoops of creamy homemade ice cream, finished with rich chocolate, strawberry and vanilla drizzle, rainbow sprinkles, and crisp wafer.',
     image: '/gallery/ice-cream-sundae1.jpg',
     badge: 'LEGENDARY',
