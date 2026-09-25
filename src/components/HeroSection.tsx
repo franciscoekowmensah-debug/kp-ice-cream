@@ -30,7 +30,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             </div>
 
             {/* Headline */}
-            <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-stone-900 leading-[1.08] text-balance">
+            <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-stone-900 leading-[1.02] text-balance">
               Freshness in every sip,{' '}
               <span className="text-emerald-700 underline decoration-amber-400 decoration-wavy decoration-2 underline-offset-8">
                 goodness
@@ -93,7 +93,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
               {/* Main Image Frame */}
               <div className="overflow-hidden rounded-3xl bg-stone-100 border border-stone-200/90 shadow-2xl transition-transform duration-500 hover:scale-[1.01]">
                 <img
-                  src="/gallery/melon-cocktail.jpg"
+                  src="/gallery/Flyer6.jpg"
                   alt="Kim Prince Juice & Snack Bar Fresh Beverages"
                   className="w-full h-80 sm:h-96 object-cover"
                   loading="eager"

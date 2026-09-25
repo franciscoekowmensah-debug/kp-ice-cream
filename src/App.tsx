@@ -45,6 +45,7 @@ export default function App() {
 
   const [isCartOpen, setIsCartOpen] = useState(false);
   const [isGalleryOpen, setIsGalleryOpen] = useState(false);
+  const [showIntroOverlay, setShowIntroOverlay] = useState(true);
 
   // Sync cart to localStorage
   useEffect(() => {
@@ -54,6 +55,16 @@ export default function App() {
       // ignore
     }
   }, [cart]);
+
+  useEffect(() => {
+    if (!showIntroOverlay) return;
+
+    const timer = window.setTimeout(() => {
+      setShowIntroOverlay(false);
+    }, 30000);
+
+    return () => window.clearTimeout(timer);
+  }, [showIntroOverlay]);
 
   // Compute total item count in cart
   const cartTotalCount = cart.reduce((sum, item) => sum + item.quantity, 0);
@@ -120,6 +131,27 @@ export default function App() {
 
   return (
     <div className="min-h-screen flex flex-col relative text-stone-900 bg-gradient-to-b from-orange-50/90 via-white to-amber-50/80 selection:bg-emerald-500 selection:text-white">
+      {showIntroOverlay && (
+        <button
+          type="button"
+          onClick={() => setShowIntroOverlay(false)}
+          aria-label="Dismiss welcome screen"
+          className="fixed inset-0 z-[80] border-0 p-0 cursor-pointer overflow-hidden animate-[fadeIn_0.7s_ease-out]"
+          style={{
+            backgroundImage: "url('/gallery/Flyer6.jpg')",
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
+          }}
+        >
+          <div className="absolute inset-0 bg-black/20" />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/15 via-transparent to-black/35" />
+          <div className="absolute inset-0 scale-100 animate-[introZoom_12s_ease-out_forwards]" />
+          <div className="absolute bottom-8 left-1/2 -translate-x-1/2 rounded-full border border-white/40 bg-black/25 px-4 py-2 text-xs font-medium tracking-[0.28em] text-white uppercase backdrop-blur-sm shadow-lg">
+            Tap to continue
+          </div>
+        </button>
+      )}
       
       {/* Raining light blue frostflakes / snowflakes canvas background */}
       <SnowfallBackground />
