@@ -120,7 +120,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
               </div>
 
               {/* Floating Badge (Location & WhatsApp) */}
-              <div className="absolute -bottom-5 -left-4 sm:-left-6 bg-white/95 backdrop-blur-md p-3.5 sm:p-4 rounded-2xl shadow-xl border border-stone-200/80 flex items-center gap-3.5">
+              <div className="absolute -bottom-10 -left-4 sm:-left-6 bg-white/95 backdrop-blur-md p-3.5 sm:p-4 rounded-2xl shadow-xl border border-stone-200/80 flex items-center gap-3.5">
                 <div className="w-10 h-10 rounded-xl bg-amber-500 text-white flex items-center justify-center font-bold text-base shadow-xs">
                   <CupSoda className="w-5 h-5" />
                 </div>
@@ -129,7 +129,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                     Adjacent Prison Quarters
                   </div>
                   <div className="text-[11px] text-stone-500 font-medium">
-                    WhatsApp: 0556120005
+                    Open from 9:00 AM – 10:00 PM Daily
                   </div>
                 </div>
               </div>

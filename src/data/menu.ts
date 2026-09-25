@@ -6,29 +6,29 @@ export const MENU_ITEMS: MenuItem[] = [
     id: 'juice-pineapple-ginger',
     name: 'Pure Pineapple & Ginger',
     category: 'juices',
-    price: 25,
-    description: 'Cold-pressed sweet Obuasi pineapples infused with fresh zesty ginger. 100% natural, no added sugar.',
-    image: '/gallery/juice-cocktail1.jpg',
+    price: 60,
+    description: 'Cold-pressed sweet pineapples infused with fresh ginger. 100% natural, no added sugar.',
+    image: '/gallery/pine-cocktail.jpg',
     badge: '100% FRESH',
     tags: ['Cold-Pressed', 'Immunity Boost', 'No Added Sugar']
   },
   {
     id: 'juice-orange-watermelon',
-    name: 'Fresh Orange & Watermelon Splash',
+    name: 'Fresh Watermelon Splash',
     category: 'juices',
-    price: 25,
-    description: 'Sun-kissed sweet oranges freshly squeezed and layered with cold diced watermelon juice.',
-    image: '/gallery/pine-cocktail.jpg',
+    price: 60,
+    description: 'Sun-kissed sweet lemons freshly squeezed and layered with cold diced watermelon juice.',
+    image: '/gallery/melon-cocktail.jpg',
     badge: 'CUSTOMER FAVORITE',
     tags: ['Chilled', 'Hydrating', 'Vitamin C']
   },
   {
     id: 'juice-mango-passion',
-    name: 'Tropical Mango Passion Juice',
+    name: 'Tropical Cocktail Juice',
     category: 'juices',
-    price: 30,
-    description: 'Velvety local ripe mango juice blended with fragrant tropical passion fruit seeds and pulp.',
-    image: '/gallery/melon-cocktail.jpg',
+    price: 60,
+    description: 'Velvety local ripe fruit juices blended with fragrant tropical passion fruit seeds and pulp.',
+    image: '/gallery/juice-cocktail1.jpg',
     badge: 'SEASONAL HIT',
     tags: ['Rich & Thick', 'Tropical', 'Sweet']
   },
@@ -36,123 +36,133 @@ export const MENU_ITEMS: MenuItem[] = [
     id: 'juice-detox-green',
     name: 'Detox Fresh Green Juice',
     category: 'juices',
-    price: 30,
+    price: 60,
     description: 'Crisp cucumber, green apple, fresh lime, garden mint, and young ginger juice.',
+    image: '/gallery/juice-cocktail2.jpg',
+    badge: 'CLEANSE',
+    tags: ['Detox', 'Low Calorie', 'Refreshing']
+  },
+  {
+    id: 'juice-orange',
+    name: 'Orange Cocktail Juice',
+    category: 'juices',
+    price: 60,
+    description: 'Sweet oranges, fresh lime, garden mint, and young ginger juice.',
     image: '/gallery/citrus-cocktail.jpg',
     badge: 'CLEANSE',
     tags: ['Detox', 'Low Calorie', 'Refreshing']
   },
-
   // Smoothies & Milkshakes
   {
     id: 'smoothie-kim-green',
-    name: 'Signature Green Power Smoothie',
+    name: 'Chocolate Ice Cream Milkshake',
     category: 'smoothies',
-    price: 35,
-    description: 'Fresh baby greens, ripe banana, avocado, fresh apple juice, and wild honey blended velvety smooth.',
-    image: '/gallery/juice-cocktail2.jpg',
+    price: 60,
+    description: 'Chocolate flavoured, velvety smooth ice-cream milkshake.',
+    image: '/gallery/choc-milkshake1.jpg',
     badge: 'HOUSE SPECIAL',
-    tags: ['Energizing', 'Creamy', 'Natural Honey']
+    tags: ['Energizing', 'Creamy', 'Chocolate Flavor']
   },
   {
     id: 'smoothie-strawberry-banana',
-    name: 'Strawberry Banana Swirl Smoothie',
+    name: 'Chocolate with Vanilla or Strawberry Milkshake',
     category: 'smoothies',
-    price: 35,
+    price: 60,
     description: 'Whole sweet strawberries whipped with frozen banana and chilled probiotic yogurt.',
-    image: '/gallery/melon-pine-juice-pie.jpg',
+    image: '/gallery/choc-vanil-milkshake.jpg',
     badge: 'KIDS FAVORITE',
-    tags: ['Fruity', 'Real Berries', 'Silky']
+    tags: ['Fruity', 'Strawberry', 'Silky']
   },
   {
     id: 'shake-thick-vanilla-chocolate',
-    name: 'Thick Real Ice Cream Milkshake',
+    name: 'Thick Vanilla Ice Cream Milkshake',
     category: 'smoothies',
-    price: 40,
+    price: 60,
     description: 'Crafted with our rich daily churned ice cream, fresh whole milk, chocolate drizzle, and whipped cream.',
-    image: '/gallery/choc-milkshake1.jpg',
+    image: '/gallery/vanil-milkshake3.jpg',
     badge: 'BESTSELLER',
-    tags: ['Real Ice Cream', 'Super Thick', 'Chocolate or Vanilla']
+    tags: ['Real Ice Cream', 'Super Thick', 'Vanilla']
   },
 
   // Sandwiches
   {
     id: 'sandwich-club-deluxe',
-    name: 'Triple-Decker Club Sandwich',
+    name: 'Triple-Decker Burger',
     category: 'sandwiches',
-    price: 40,
+    price: 80,
     description: 'Golden toasted bread layered with seasoned pulled chicken, boiled farm egg, crisp lettuce, ripe tomatoes, and chef herb spread.',
-    image: '/gallery/customer-with-cocktail.jpg',
+    image: 'https://images.unsplash.com/photo-1610440042657-612c34d95e9f?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     badge: 'TOP SELLER',
     tags: ['Triple-Decker', 'High Protein', 'Served Warm']
   },
-  {
-    id: 'sandwich-crispy-chicken',
-    name: 'Crispy Chicken & Herb Sub',
-    category: 'sandwiches',
-    price: 35,
-    description: 'Tender marinated chicken breast with crunchy garden slaw, melted cheddar, and Kim Prince signature garlic mayo.',
-    image: '/gallery/citrus-cocktail.jpg',
-    badge: 'FRESH GRILL',
-    tags: ['Toasted', 'Savory', 'Hearty']
-  },
-  {
-    id: 'sandwich-tuna-melt',
-    name: 'Savory Tuna & Sweetcorn Melt',
-    category: 'sandwiches',
-    price: 35,
-    description: 'Flaked light tuna, juicy golden sweetcorn, red onions, melted cheese on crusty artisanal toast.',
-    image: '/gallery/melon-cocktail.jpg',
-    tags: ['Comfort Food', 'Melted Cheese', 'Toasted']
-  },
-  {
-    id: 'sandwich-veggie-egg',
-    name: 'Fresh Garden Veggie & Egg Sandwich',
-    category: 'sandwiches',
-    price: 30,
-    description: 'Farm fresh sliced boiled eggs, crunchy cucumber, tomatoes, lettuce, and creamy mustard dressing.',
-    image: '/gallery/pine-cocktail.jpg',
-    tags: ['Vegetarian', 'Light & Fresh', 'Quick Bite']
-  },
+  // {
+  //   id: 'sandwich-crispy-chicken',
+  //   name: 'Crispy Chicken & Herb Sub',
+  //   category: 'sandwiches',
+  //   price: 35,
+  //   description: 'Tender marinated chicken breast with crunchy garden slaw, melted cheddar, and Kim Prince signature garlic mayo.',
+  //   image: '/gallery/citrus-cocktail.jpg',
+  //   badge: 'FRESH GRILL',
+  //   tags: ['Toasted', 'Savory', 'Hearty']
+  // },
+  // {
+  //   id: 'sandwich-tuna-melt',
+  //   name: 'Savory Tuna & Sweetcorn Melt',
+  //   category: 'sandwiches',
+  //   price: 35,
+  //   description: 'Flaked light tuna, juicy golden sweetcorn, red onions, melted cheese on crusty artisanal toast.',
+  //   image: '/gallery/melon-cocktail.jpg',
+  //   tags: ['Comfort Food', 'Melted Cheese', 'Toasted']
+  // },
+  // {
+  //   id: 'sandwich-veggie-egg',
+  //   name: 'Fresh Garden Veggie & Egg Sandwich',
+  //   category: 'sandwiches',
+  //   price: 30,
+  //   description: 'Farm fresh sliced boiled eggs, crunchy cucumber, tomatoes, lettuce, and creamy mustard dressing.',
+  //   image: '/gallery/pine-cocktail.jpg',
+  //   tags: ['Vegetarian', 'Light & Fresh', 'Quick Bite']
+  // },
 
   // Pastries & Snacks
   {
     id: 'pastry-golden-meatpie',
-    name: 'Crispy Golden Meat Pies (2 pcs)',
+    name: 'Crispy Golden Meat Pies',
     category: 'pastries',
-    price: 25,
-    description: 'Golden, flaky handmade pastry crust stuffed with richly seasoned minced beef, tender potatoes, and garden herbs.',
-    image: '/gallery/melon-pine-juice-pie.jpg',
+    price: 10,
+    description: 'Golden, flaky handmade pastry crust stuffed with richly seasoned minced beef.',
+    image: '/gallery/meat-pie.jpg',
     badge: 'FRESHLY BAKED',
-    tags: ['Oven Hot', '100% Beef', 'Flaky Pastry']
+    tags: ['Oven Hot', 'Meat', 'Flaky Pastry']
   },
+
   {
     id: 'pastry-fresh-muffins',
-    name: 'Oven-Fresh Blueberry & Vanilla Muffins',
+    name: 'Oven-Fresh Mini Cake',
     category: 'pastries',
-    price: 20,
+    price: 25,
     description: 'Moist bakery-style muffin bursting with juicy blueberries and topped with crunchy golden sugar crust.',
-    image: '/gallery/customer-with-cocktail.jpg',
+    image: 'https://plus.unsplash.com/premium_photo-1669931367700-e4e1e0387d40?q=80&w=734&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     badge: 'SWEET TREAT',
     tags: ['Bakery Fresh', 'Moist & Fluffy', 'Coffee Buddy']
   },
   {
     id: 'pastry-beef-samosas',
-    name: 'Spicy Beef & Veggie Samosas (3 pcs)',
+    name: 'Spicy Sausage',
     category: 'pastries',
     price: 25,
-    description: 'Crispy golden triangles packed with spiced minced meat, scallions, and chili flakes, served with tangy sweet chili dip.',
-    image: '/gallery/juice-cocktail2.jpg',
+    description: 'Crispy and spiced minced sausages, served with tangy sweet chili dip.',
+    image: 'https://images.unsplash.com/photo-1585325701165-351af916e581?q=80&w=750&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     badge: 'CRUNCHY',
     tags: ['Spiced', 'Golden Fried', 'Party Favorite']
   },
   {
     id: 'pastry-spring-rolls',
-    name: 'Crispy Chicken Spring Rolls (3 pcs)',
+    name: 'Crispy Chicken Spring Rolls',
     category: 'pastries',
-    price: 25,
+    price: 10,
     description: 'Ultra-crisp handmade rolls filled with tender shredded chicken, julienne carrots, and crunchy cabbage.',
-    image: '/gallery/ice-cream-sundae1.jpg',
+    image: '/gallery/spring-rolls.jpg',
     tags: ['Crispy', 'Savory', 'Finger Food']
   },
 
@@ -161,29 +171,29 @@ export const MENU_ITEMS: MenuItem[] = [
     id: 'icecream-classic-sundae',
     name: 'Classic Ice Cream Sundae',
     category: 'icecream',
-    price: 30,
-    description: 'Generous scoops of creamy homemade ice cream, finished with rich chocolate/strawberry drizzle, rainbow sprinkles, and crisp wafer.',
+    price: 60,
+    description: 'Generous scoops of creamy homemade ice cream, finished with rich chocolate, strawberry and vanilla drizzle, rainbow sprinkles, and crisp wafer.',
     image: '/gallery/ice-cream-sundae1.jpg',
     badge: 'LEGENDARY',
     tags: ['Obuasi Classic', 'Wafers & Sauce', 'Served Cold']
   },
-  {
-    id: 'icecream-cocktail-special',
-    name: 'Kim Prince Ice Cream Cocktail',
-    category: 'icecream',
-    price: 45,
-    description: 'Our signature house dessert! Tall glass layered with ice cream scoops, tropical fruit cocktail, fruit syrup, and roasted crushed peanuts.',
-    image: '/gallery/choc-vanil-milkshake.jpg',
-    badge: 'SIGNATURE DESSERT',
-    tags: ['Layered', 'Real Fruits', 'Showstopper']
-  },
+  // {
+  //   id: 'icecream-cocktail-special',
+  //   name: 'Kim Prince Ice Cream Cocktail',
+  //   category: 'icecream',
+  //   price: 45,
+  //   description: 'Our signature house dessert! Tall glass layered with ice cream scoops, tropical fruit cocktail, fruit syrup, and roasted crushed peanuts.',
+  //   image: '/gallery/choc-vanil-milkshake.jpg',
+  //   tags: ['Layered', 'Real Fruits', 'Showstopper']
+  // },
   {
     id: 'icecream-double-waffle',
     name: 'Double Scoop Crispy Waffle Cup',
     category: 'icecream',
-    price: 25,
+    price: 60,
     description: 'Two generous scoops of your choice (Creamy Vanilla, Strawberry Swirl, or Rich Chocolate) in a crisp waffle cone or bowl.',
     image: '/gallery/ice-cream-milkshake.jpg',
+    badge: 'SIGNATURE DESSERT',
     tags: ['Hand Dipped', 'Waffle Cone', 'Classic']
   }
 ];
@@ -349,5 +359,82 @@ export const GALLERY_MEDIA_ITEMS: GalleryMedia[] = [
     type: 'image',
     url: '/gallery/vanil-milkshake3.jpg',
     description: 'A creamy vanilla finish to our milkshake menu.'
+  },
+  {
+    id: 'gallery-flyer-3',
+    title: 'Promotional Flyer 3',
+    type: 'image',
+    url: '/gallery/Flyer3.jpg',
+    description: 'Fresh highlights and offers from our featured menu lineup.'
+  },
+  {
+    id: 'gallery-flyer-4',
+    title: 'Promotional Flyer 4',
+    type: 'image',
+    url: '/gallery/Flyer4.jpg',
+    description: 'A showcase of specials and value-packed meal choices.'
+  },
+  {
+    id: 'gallery-flyer-5',
+    title: 'Promotional Flyer 5',
+    type: 'image',
+    url: '/gallery/Flyer5.jpg',
+    description: 'More of our seasonal highlights and customer favorites.'
+  },
+  {
+    id: 'gallery-fried-rice',
+    title: 'Fried Rice',
+    type: 'image',
+    url: '/gallery/fried-rice.jpg',
+    description: 'A savory classic served fresh and full of flavor.'
+  },
+  {
+    id: 'gallery-jollof',
+    title: 'Jollof Rice',
+    type: 'image',
+    url: '/gallery/jollof.jpg',
+    description: 'Classic jollof rice prepared with rich seasoning and vibrant color.'
+  },
+  {
+    id: 'gallery-jollof-2',
+    title: 'Jollof Rice Plate',
+    type: 'image',
+    url: '/gallery/jollof2.jpg',
+    description: 'A hearty serving of our signature jollof rice dish.'
+  },
+  {
+    id: 'gallery-meat-pie',
+    title: 'Meat Pie',
+    type: 'image',
+    url: '/gallery/meat-pie.jpg',
+    description: 'Golden pastry filled with savory meat and rich seasoning.'
+  },
+  {
+    id: 'gallery-plain-rice',
+    title: 'Plain Rice',
+    type: 'image',
+    url: '/gallery/plain-rice.jpg',
+    description: 'Simple, satisfying white rice served alongside our popular meals.'
+  },
+  {
+    id: 'gallery-pomegranate-slush-juice',
+    title: 'Pomegranate Slush Juice',
+    type: 'image',
+    url: '/gallery/pomegranate-slush-juice.jpg',
+    description: 'A refreshing slush-style juice with a bright fruit finish.'
+  },
+  {
+    id: 'gallery-spring-rolls',
+    title: 'Spring Rolls',
+    type: 'image',
+    url: '/gallery/spring-rolls.jpg',
+    description: 'Crisp and golden spring rolls served fresh from the kitchen.'
+  },
+  {
+    id: 'gallery-waakye',
+    title: 'Waakye',
+    type: 'image',
+    url: '/gallery/waakye.jpg',
+    description: 'A comforting local favorite served with flavor-packed toppings.'
   }
 ];

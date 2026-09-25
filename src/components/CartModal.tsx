@@ -48,7 +48,7 @@ export const CartModal: React.FC<CartModalProps> = ({
 
     message += `━━━━━━━━━━━━━━━━━━━━━\n`;
     message += `*TOTAL:* GHC ${totalAmount.toFixed(2)}\n`;
-    message += `*SERVICE:* Walk-in Order Ahead (Pick up at Adjacent Prison Quarters)\n`;
+    message += `*SERVICE:* Walk-in Order Ahead\n`;
 
     if (customerName.trim()) {
       message += `*CUSTOMER NAME:* ${customerName.trim()}\n`;

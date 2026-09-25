@@ -18,7 +18,7 @@ export const LocationMapSection: React.FC = () => {
             Adjacent Prison Quarters, Obuasi
           </h2>
           <p className="text-stone-600 text-sm sm:text-base leading-relaxed">
-            Drop by our stand for chilled fresh juices, hot toasted sandwiches, pastries, and sundaes, or tap below to navigate directly using Google Maps.
+            Drop by our shop for chilled fresh juices, hot toasted sandwiches, pastries, and sundaes, or tap below to navigate directly using Google Maps.
           </p>
         </div>
 
@@ -41,7 +41,7 @@ export const LocationMapSection: React.FC = () => {
                     Adjacent Prison Quarters, Obuasi, Ashanti Region, Ghana
                   </p>
                   <p className="text-[11px] text-emerald-800 font-medium mt-1">
-                    Directly opposite / adjacent the quarters gate
+                    Near Pragya Station
                   </p>
                 </div>
               </div>
@@ -59,7 +59,7 @@ export const LocationMapSection: React.FC = () => {
                     href="tel:+233556120005"
                     className="text-xs font-mono font-bold text-emerald-700 hover:underline block mt-1"
                   >
-                    +233 55 612 0005 / 0556120005
+                    +233 55 612 0005 / 0504090823
                   </a>
                   <p className="text-[11px] text-stone-500 mt-0.5">
                     Call or send your order directly on WhatsApp
@@ -77,7 +77,7 @@ export const LocationMapSection: React.FC = () => {
                     Service Hours
                   </h4>
                   <p className="text-xs text-stone-600 mt-1">
-                    Monday – Sunday: <strong>8:30 AM – 8:30 PM</strong>
+                    Monday – Sunday: <strong>9:00 AM – 10:00 PM</strong>
                   </p>
                   <span className="inline-block mt-1 text-[10px] bg-emerald-100 text-emerald-800 px-2 py-0.5 rounded-md font-semibold">
                     Open Daily

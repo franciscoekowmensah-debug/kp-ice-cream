@@ -120,7 +120,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenCart, onOpenGallery }) => 
             <Heart className="w-3.5 h-3.5 text-rose-500 fill-rose-500" />
             <span>by</span>
             <a
-              href="https://bit.ly/4yChYMX"
+              href="https://franciscoekowmensah-debug.github.io/franciscoekowmensah-debug/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-amber-400 hover:text-amber-300 font-bold underline decoration-amber-400/50 underline-offset-2 transition-colors"

@@ -126,7 +126,7 @@ export const GalleryModal: React.FC<GalleryModalProps> = ({
 
           <div className="hidden md:flex items-center gap-1 text-[11px] text-amber-700 font-medium">
             <Sparkles className="w-3 h-3" />
-            <span>Videos autoplay, loop continuously & have no controls</span>
+            <span>Videos autoplay</span>
           </div>
         </div>
 

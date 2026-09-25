@@ -39,7 +39,8 @@ export const MobileBottomNav: React.FC<MobileBottomNavProps> = ({
         {/* Gallery Icon */}
         <button
           type="button"
-          onClick={onOpenGallery}
+          onClick={() => scrollToSection('gallery')}
+          // onClick={onOpenGallery}
           aria-label="Gallery"
           className="p-3 text-stone-600 hover:text-emerald-700 active:scale-95 transition-all rounded-2xl flex items-center justify-center cursor-pointer"
         >
