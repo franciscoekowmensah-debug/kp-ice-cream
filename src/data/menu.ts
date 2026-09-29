@@ -150,7 +150,7 @@ export const MENU_ITEMS: MenuItem[] = [
     id: 'pastry-beef-samosas',
     name: 'Spicy Sausage',
     category: 'pastries',
-    price: 25,
+    price: 10,
     description: 'Crispy and spiced minced sausages, served with tangy sweet chili dip.',
     image: 'https://images.unsplash.com/photo-1585325701165-351af916e581?q=80&w=750&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     badge: 'CRUNCHY',

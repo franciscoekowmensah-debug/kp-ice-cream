@@ -31,9 +31,10 @@ export const MobileBottomNav: React.FC<MobileBottomNavProps> = ({
           type="button"
           onClick={() => scrollToSection('menu')}
           aria-label="Menu"
-          className="p-3 text-stone-600 hover:text-emerald-700 active:scale-95 transition-all rounded-2xl flex items-center justify-center cursor-pointer"
+          className="flex min-w-0 flex-1 flex-col items-center justify-center gap-1 px-1 py-1.5 text-stone-600 hover:text-emerald-700 active:scale-95 transition-all rounded-2xl cursor-pointer"
         >
           <Utensils className="w-5 h-5" />
+          <span className="text-[9px] leading-none whitespace-nowrap">Menu</span>
         </button>
 
         {/* Gallery Icon */}
@@ -42,9 +43,10 @@ export const MobileBottomNav: React.FC<MobileBottomNavProps> = ({
           onClick={() => scrollToSection('gallery')}
           // onClick={onOpenGallery}
           aria-label="Gallery"
-          className="p-3 text-stone-600 hover:text-emerald-700 active:scale-95 transition-all rounded-2xl flex items-center justify-center cursor-pointer"
+          className="flex min-w-0 flex-1 flex-col items-center justify-center gap-1 px-1 py-1.5 text-stone-600 hover:text-emerald-700 active:scale-95 transition-all rounded-2xl cursor-pointer"
         >
           <Camera className="w-5 h-5" />
+          <span className="text-[9px] leading-none whitespace-nowrap">Gallery</span>
         </button>
 
         {/* Story Icon */}
@@ -52,9 +54,10 @@ export const MobileBottomNav: React.FC<MobileBottomNavProps> = ({
           type="button"
           onClick={() => scrollToSection('story')}
           aria-label="Our Story"
-          className="p-3 text-stone-600 hover:text-emerald-700 active:scale-95 transition-all rounded-2xl flex items-center justify-center cursor-pointer"
+          className="flex min-w-0 flex-1 flex-col items-center justify-center gap-1 px-1 py-1.5 text-stone-600 hover:text-emerald-700 active:scale-95 transition-all rounded-2xl cursor-pointer"
         >
           <Sparkles className="w-5 h-5" />
+          <span className="text-[9px] leading-none whitespace-nowrap">Story</span>
         </button>
 
         {/* Location Icon */}
@@ -62,9 +65,10 @@ export const MobileBottomNav: React.FC<MobileBottomNavProps> = ({
           type="button"
           onClick={() => scrollToSection('location')}
           aria-label="Location Map"
-          className="p-3 text-stone-600 hover:text-emerald-700 active:scale-95 transition-all rounded-2xl flex items-center justify-center cursor-pointer"
+          className="flex min-w-0 flex-1 flex-col items-center justify-center gap-1 px-1 py-1.5 text-stone-600 hover:text-emerald-700 active:scale-95 transition-all rounded-2xl cursor-pointer"
         >
           <MapPin className="w-5 h-5" />
+          <span className="text-[9px] leading-none whitespace-nowrap">Location</span>
         </button>
 
         {/* Cart / Order Icon with Live Counter Badge */}
@@ -72,7 +76,7 @@ export const MobileBottomNav: React.FC<MobileBottomNavProps> = ({
           type="button"
           onClick={onOpenCart}
           aria-label="Shopping Cart and Order Now"
-          className="relative p-3 text-stone-600 hover:text-emerald-700 active:scale-95 transition-all rounded-2xl flex items-center justify-center cursor-pointer"
+          className="relative flex min-w-0 flex-1 flex-col items-center justify-center gap-1 px-1 py-1.5 text-stone-600 hover:text-emerald-700 active:scale-95 transition-all rounded-2xl cursor-pointer"
         >
           <div className="relative">
             <ShoppingBag className={`w-5 h-5 ${cartCount > 0 ? 'text-emerald-700' : ''}`} />
@@ -82,6 +86,7 @@ export const MobileBottomNav: React.FC<MobileBottomNavProps> = ({
               </span>
             )}
           </div>
+          <span className="text-[9px] leading-none whitespace-nowrap">Cart</span>
         </button>
 
       </div>
