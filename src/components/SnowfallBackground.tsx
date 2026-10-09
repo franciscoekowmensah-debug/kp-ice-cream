@@ -41,16 +41,16 @@ export const SnowfallBackground: React.FC = () => {
 
     const isMobile = width < 768;
     // Higher density and visible light blue flakes
-    const particleCount = isMobile ? 48 : 85;
+    const particleCount = isMobile ? 15 : 30;
 
     const particles: Particle[] = [];
     for (let i = 0; i < particleCount; i++) {
       particles.push({
         x: Math.random() * width,
         y: Math.random() * height,
-        radius: Math.random() * 3.5 + 2.0,
+        radius: Math.random() * 1.5 + 0.5,
         density: Math.random() * particleCount,
-        speedY: Math.random() * 1.6 + 0.8,
+        speedY: Math.random() * 0.6 + 0.5,
         speedX: (Math.random() - 0.5) * 0.7,
         angle: Math.random() * Math.PI * 2,
         angularSpeed: (Math.random() - 0.5) * 0.025,
